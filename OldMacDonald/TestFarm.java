@@ -7,7 +7,14 @@
  */
 public class TestFarm
 {
-    public static vvoid main(String[] args){
-        Cow c = new Cow()
+    public static void main(String[] args){
+        Cow c = new Cow("cow", "moo");
+        System.out.println(c.getType() + " goes " + c.getSound());
+        
+        Chick ck = new Chick("chick", "cluck", "cheep");
+        System.out.println(ck.getType() + " goes " + ck.getSound());
+        
+        Pig p = new Pig("pig", "oink");
+        System.out.println(p.getType() + " goes" + p.getSound());
     }
 }

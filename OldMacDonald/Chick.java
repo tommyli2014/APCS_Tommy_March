@@ -24,7 +24,7 @@ public class Chick implements Animal
     public String getSound(){
         Random rand = new Random();
         int i = 0;
-        i = rand.nextInt(1);
+        i = rand.nextInt(2);
         if(i == 0){
             return mySound;
         } else {
